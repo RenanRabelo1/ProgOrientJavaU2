@@ -1,0 +1,15 @@
+public class Funcionario {
+
+    String cargo:
+    String setor:
+    short idade:
+    byte horas_de_trabalho:
+    String turno:
+
+    public void venderpipoca(){
+    }
+    public void fazer_limpeza(){
+    }
+    public void checar_tickets(){
+    }
+}
