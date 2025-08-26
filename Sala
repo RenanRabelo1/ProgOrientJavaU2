@@ -1,1 +1,15 @@
+public class Sala {
 
+    short numero:
+    short capacidade:
+    short tamanho:
+    String aparelhosDeAudio:
+    String tipo_tela:
+
+    public void VerificarDisponibilidade(){
+    }
+    public void Ajustar_iluminacao(){
+    }
+    public void Iniciar_sessao(){
+    }
+}
