@@ -6,7 +6,7 @@ String titulo:
     String classificacao:
     String sinopse:
 
-    public void TransmitirInformacao(){
+    public void ExibirSinopse(){
     }
     public void Iniciar(){
     }
