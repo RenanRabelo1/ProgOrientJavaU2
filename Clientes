@@ -1,0 +1,15 @@
+public class Financeiro {
+
+    short idade:
+    String preferencias:
+    String tipo_assento:
+    String fidelidade:
+    int historico_compras:
+
+    public void ComprarIngresso(){
+    }
+    public void AssistirFilme(){
+    }
+    public void EscolherAssento(){
+    }
+}
