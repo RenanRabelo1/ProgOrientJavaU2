@@ -1,0 +1,15 @@
+public class Filme {
+
+String titulo:
+    short duracao:
+    String genero:
+    String classificacao:
+    String sinopse:
+
+    public void TransmitirInformacao(){
+    }
+    public void Iniciar(){
+    }
+    public void terminar(){
+    }
+}
