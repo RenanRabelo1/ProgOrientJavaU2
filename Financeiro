@@ -1,0 +1,15 @@
+public class Financeiro {
+
+String totem:
+    short bilheteria:
+    short internet:
+    short loja:
+    int faturamento_total:
+
+    public void GerarRecibo(){
+    }
+    public void EmitirIngresso(){
+    }
+    public void PagarSalario(){
+    }
+}
