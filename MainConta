@@ -1,0 +1,12 @@
+public class Main {
+
+    public static void main(String[] args) {
+        Conta c = new Conta();
+                c.cpf = "06924618332";
+                c.numBanco = 12345;
+                c.saldo = 3000.0f;
+
+
+        System.out.println(c);
+    }
+}
