@@ -1,0 +1,29 @@
+public class Conta {
+
+    String cpf;
+    short numBanco;
+    float saldo;
+
+    public float bonificacao(){
+
+        return saldo * 0.1f;
+
+    }
+
+public void sacar(float valorSaque){
+            saldo -= valorSaque;
+}
+public void depositar(float valorDeposito){
+        saldo += valorDeposito;
+    }
+    public void mostrar(){
+        System.out.printf("o Valor do seu cpf é %s", cpf);
+        System.out.printf("Número de banco é é %d", numBanco);
+        System.out.printf("O seu saldo é %.2f", saldo);
+    }
+    public String toString(){
+
+        return " Conta - CPF " +cpf + " número do banco: "+ numBanco + " e saldo: "+ saldo;
+
+    }
+}
